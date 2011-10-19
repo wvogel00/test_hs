@@ -1,4 +1,4 @@
-mport Control.Monad
+import Control.Monad
 
 width  = 5
 height = 5
@@ -52,4 +52,3 @@ wait :: Int -> IO Int
 wait a = return $ foldl (+) 0 [1..a]
 
 main = showNext 10 start
-
